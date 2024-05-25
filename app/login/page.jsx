@@ -1,16 +1,11 @@
-import LayoutAuth from '@/containers/LayoutAuth/LayoutAuth'
+import Login from '@/components/Auth/login/Login'
 
-// export const metadata = {
-//   title: 'Auth',
-//   description: '2552445',
-// }
-
-const Login = () => {
+const page = () => {
   return (
     <div>
-      <LayoutAuth>Login</LayoutAuth>
+      <Login />
     </div>
   )
 }
 
-export default Login
+export default page
